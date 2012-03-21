@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Zawgyi-one Web Text Editor 1.5.4</title>
+<script src="convertor.js"></script>
+<script type="text/javascript" src="keyboard.js" charset="UTF-8"></script>
+<link rel="stylesheet" type="text/css" href="keyboard.css">
+<style>
+@font-face {
+    font-family:Zawgyi-One;
+    src:local('Zawgyi-One'),url('zawgyi.ttf');
+}
+
+body,input
+{
+font-family:Zawgyi-one,Zawgyi1;
+}
+ .mainoption {
+    height:40px;
+    width:50px;
+    font-size:15px;
+    padding: 5px;
+ }
+
+</style>
+</head>
+
+<body>
+
+<h3> Zawgyi-one Web Text Editor v 1.5.4</h3> 
+
+<input type="checkbox" id="chklan" onclick="mmswitch('subj');"  />
+Myanmar ( alt +n ) ( <a target="_blank" href="AlphaZawgyi.jpg">Keyboard Map</a> ) ( <a href="http://www.planet.com.mm/fonts/Zawgyi-One-20051130.ttf">Font</a> ) ( <a href="index.html">New Texteditor</a> )
+<table width="100%">
+<tr>
+	<td>
+	<textarea style="font-family:Zawgyi-one;font-size:12px" name="subj" cols="60" rows="17" id="subj" onFocus="s_makeFocused()" type="text" class="keyboardInput"  ></textarea>
+	</td>
+	<td valign="top">
+	<fieldset class="fieldset" style="margin:10px 0px 0px 0px;width:50%">
+		<legend>Myanmar Key Map</legend>
+		
+		
+			<table>
+				<tr>
+				<script>letters();</script>
+                </tr>
+			</table>
+				
+</fieldset>
+	
+	</td>
+</tr>
+</table>
+<address> Base From Planet.com.mm  <Br />
+Source code For Firefox is written by Ko Min Kyaw <br />
+Updated By Saturngod .<br />
+</address>
+
+</body>
+</html>
